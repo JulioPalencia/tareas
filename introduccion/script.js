@@ -37,7 +37,6 @@ function getEstacionDos( mesActual ) {
 			break;
 		case 9: case 10: case 11:
 			return 'Es Otoño 🍂';
-			break;
 	}
 }
 
@@ -47,7 +46,7 @@ document.write( 'Metodo if, else if, else: ' + getEstacionUno( mes ) );
 document.write( '<hr />Metodo switch case: ' + getEstacionDos( mes ) );
 
 // Imprimo mi nombre y # de carné
-document.write( '<hr />Nombre: ' + nombre + '<br />Carné: ' + carne );
+document.write( '<hr />Nombre: ' + nombre + '<br /># de Carné: ' + carne );
 
 
 // Mostrando la estacion del año en consola, segun la variable mes
@@ -56,4 +55,4 @@ console.log( 'Metodo switch case: ' + getEstacionDos( mes ) );
 
 // Mostrando mi nombre y # de carné en consola
 console.log( 'Nombre: ' + nombre );
-console.log( 'Carné: ' + carne );
+console.log( '# de Carné: ' + carne );
